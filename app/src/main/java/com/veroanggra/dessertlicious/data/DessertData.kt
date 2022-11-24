@@ -3,6 +3,7 @@ package com.veroanggra.dessertlicious.data
 import com.veroanggra.dessertlicious.R
 import com.veroanggra.dessertlicious.model.Dessert
 import com.veroanggra.dessertlicious.model.MenuDessert
+import com.veroanggra.dessertlicious.model.MenuTopping
 import com.veroanggra.dessertlicious.ui.theme.*
 
 object DessertData {
@@ -58,6 +59,18 @@ object DessertData {
     )
 
     val menuItems = listOf(
-        MenuDessert(1, R.drawable.donut_order), MenuDessert(2, R.drawable.cupcake_order)
+        MenuDessert(
+            1,
+            R.drawable.donut_order, R.string.ingredients_1
+        ),
+        MenuDessert(
+            2,
+            R.drawable.cupcake_order, R.string.ingredients_2
+        )
+    )
+
+    val toppingItem = listOf(
+        MenuTopping(1, R.drawable.choco, R.drawable.choco_topping, 2),
+        MenuTopping(2, R.drawable.strawberry, R.drawable.strawberry_topping, 5)
     )
 }

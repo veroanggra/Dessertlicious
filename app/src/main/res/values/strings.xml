@@ -3,4 +3,6 @@
     <string name="show_more">More</string>
     <string name="show_less">Less</string>
     <string name="title_activity_detail_dessert">DetailDessertActivity</string>
+    <string name="ingredients_1">1cup (240ml) whole milk, warmed to about 110°F (43°C), 1 Tablespoon active dry yeast, ⅓ cup (65g) granulated sugar, 2 large eggs, 6 Tablespoons (86g) unsalted butter, melted and slightly cooled, 1 teaspoon pure vanilla extract</string>
+    <string name="ingredients_2">110g softened butter, 110g golden caster sugar, 2 large eggs, ½ tsp vanilla extract</string>
 </resources>

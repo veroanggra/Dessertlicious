@@ -14,5 +14,13 @@ data class Dessert(
 
 data class MenuDessert(
     val key: Int,
-    val imageMenu: Int
+    val imageMenu: Int,
+    val ingredients: Int
+)
+
+data class MenuTopping(
+    val key: Int,
+    val iconTopping: Int,
+    val imageTopping: Int,
+    val price: Int
 )
