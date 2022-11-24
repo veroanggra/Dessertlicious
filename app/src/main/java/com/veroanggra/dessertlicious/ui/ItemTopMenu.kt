@@ -14,7 +14,9 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import com.veroanggra.dessertlicious.const.DragTarget
 import com.veroanggra.dessertlicious.model.MenuDessert
+import com.veroanggra.dessertlicious.model.MenuTopping
 import com.veroanggra.dessertlicious.ui.theme.Pink1
+import com.veroanggra.dessertlicious.ui.theme.Yellow1
 
 @Composable
 fun TopMenuItem(modifier: Modifier = Modifier, dessert: MenuDessert) {
@@ -29,6 +31,23 @@ fun TopMenuItem(modifier: Modifier = Modifier, dessert: MenuDessert) {
                 .size(100.dp)
                 .padding(10.dp)
                 .background(color = Pink1, shape = RoundedCornerShape(10.dp))
+        )
+    }
+}
+
+@Composable
+fun ToppingMenuItem(modifier: Modifier = Modifier, topping: MenuTopping) {
+    DragTarget(modifier = modifier.size(60.dp), dataToDrop = topping) {
+        Image(
+            painter = painterResource(id = topping.iconTopping),
+            contentDescription = null,
+            modifier
+                .clip(
+                    RoundedCornerShape(100.dp)
+                )
+                .size(100.dp)
+                .padding(10.dp)
+                .background(color = Yellow1, shape = RoundedCornerShape(10.dp))
         )
     }
 }
