@@ -180,9 +180,6 @@ fun BoxScope.KitchenScreen(modifier: Modifier = Modifier) {
                     text = stringResource(id = R.string.ingredients_2),
                     color = Color.DarkGray, fontSize = 12.sp, modifier = modifier.padding(horizontal = 16.dp)
                 )
-                Button(onClick = { }) {
-                    
-                }
             }
         }
     }

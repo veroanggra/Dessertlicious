@@ -66,11 +66,25 @@ object DessertData {
         MenuDessert(
             2,
             R.drawable.cupcake_order, R.string.ingredients_2
+        ),
+        MenuDessert(
+            3,
+            R.drawable.eclair_order, R.string.ingredients_2
+        ),
+        MenuDessert(
+            4,
+            R.drawable.cake_order, R.string.ingredients_2
+        ),
+        MenuDessert(
+            5,
+            R.drawable.pudding, R.string.ingredients_2
         )
     )
 
     val toppingItem = listOf(
         MenuTopping(1, R.drawable.choco, R.drawable.choco_topping, 2),
-        MenuTopping(2, R.drawable.strawberry, R.drawable.strawberry_topping, 5)
+        MenuTopping(2, R.drawable.strawberry, R.drawable.strawberry_topping, 5),
+        MenuTopping(3, R.drawable.blueberry_topping, R.drawable.strawberry_topping, 6),
+        MenuTopping(4, R.drawable.kismis, R.drawable.strawberry_topping, 3)
     )
 }
